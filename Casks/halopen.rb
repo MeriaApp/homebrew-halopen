@@ -1,8 +1,8 @@
 cask "halopen" do
-  version "1.8.21"
+  version "1.8.21,181"
   sha256 "319a0f110559fdae58c353fec4c0cad52f3c40139f4a9102f33e856ff37b61e9"
 
-  url "https://halopen.com/releases/Halopen-#{version}.dmg"
+  url "https://halopen.com/releases/Halopen-#{version.csv.first}.dmg"
   name "Halopen"
   desc "Dictation app that writes what you said"
   homepage "https://halopen.com/"
@@ -13,7 +13,7 @@ cask "halopen" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Halopen.app"
 
