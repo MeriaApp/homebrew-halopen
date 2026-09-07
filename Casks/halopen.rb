@@ -1,6 +1,6 @@
 cask "halopen" do
-  version "1.8.22,182"
-  sha256 "67d0ff5b3038a753cc2b96e4756e9f70e4ba0cf4f1fbbff4ad2946d893f9ab9b"
+  version "1.8.25,185"
+  sha256 "cee2bcf4231f2c7ef070aa1d7f8c321b51dfea1fdad91647cd039fb97bb508e4"
 
   url "https://halopen.com/releases/Halopen-#{version.csv.first}.dmg"
   name "Halopen"
