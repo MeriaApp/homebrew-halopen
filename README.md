@@ -47,3 +47,4 @@ own documented answer for exactly this situation. Everything works identically f
 - Changelog — <https://halopen.com/changelog/>
 - Privacy — <https://halopen.com/privacy/>
 - Support — <https://halopen.com/support/>
+- Dictation fidelity test (does an app write what you said?) — <https://github.com/MeriaApp/dictation-fidelity-test>
